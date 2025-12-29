@@ -1,0 +1,47 @@
+body {
+  background: #111;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input, button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #00c3ff;
+  cursor: pointer;
+}
+
+#stiker {
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  background: white;
+
+  display: flex;
+  align-items: flex-start;   /* ke atas */
+  justify-content: flex-start; /* ke kiri */
+
+  border-radius: 20px;
+}
+
+
+#stikerText {
+  font-family: Arial, Helvetica, sans-serif; /* mirip gambar */
+  font-size: 72px;        /* BESAR */
+  font-weight: 800;      /* TEBAL */
+
+  color: black;
+  text-align: left;
+
+  width: 100%;
+  padding: 20px;
+
+  white-space: pre-line;
+  word-break: break-word;
+}

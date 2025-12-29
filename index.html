@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pembuat Stiker Kata</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎨 Pembuat Stiker Kata</h1>
+
+  <input type="text" id="textInput" placeholder="Tulis kata-kata kamu">
+
+  <input type="color" id="textColor" value="#ffffff">
+  <input type="color" id="bgColor" value="#ff5e5e">
+
+  <br><br>
+
+  <button onclick="buatStiker()">Buat Stiker</button>
+  <button onclick="downloadStiker()">Download</button>
+
+  <div id="stiker">
+    <span id="stikerText">Contoh Stiker</span>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
